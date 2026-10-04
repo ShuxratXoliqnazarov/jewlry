@@ -1,0 +1,18 @@
+.card {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	text-align: center;
+}
+
+.image {
+	width: 100%;
+	aspect-ratio: 5 / 6;
+	object-fit: cover;
+	display: block;
+}
+
+.title {
+	margin-top: 24px;
+	font-size: 12px;
+}

@@ -1,0 +1,20 @@
+.button {
+	display: inline-block;
+	padding: 8px 40px;
+	border-radius: 999px;
+	font-size: 14px;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+
+.light {
+	background: #f7f5f0;
+	color: #1a1a1a;
+}
+
+.outline {
+	background: transparent;
+	color: #1a1a1a;
+	border-color: #1a1a1a;
+}
