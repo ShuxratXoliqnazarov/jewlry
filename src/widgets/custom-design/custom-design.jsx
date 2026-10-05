@@ -1,5 +1,5 @@
 import { Button } from '../../shared/ui'
-import Card from '../../shared/ui/card/Card'
+import Card from '../../shared/ui/card/card'
 import img from '../../assets/images/IMAGE (5).svg'
 
 
