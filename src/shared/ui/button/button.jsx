@@ -8,3 +8,4 @@ export default function Button({ children, href, variant = 'light', type = 'butt
 
 	return <button type={type} onClick={onClick} className={cls}>{children}</button>
 }
+
