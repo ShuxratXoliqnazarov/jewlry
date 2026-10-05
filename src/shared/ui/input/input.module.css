@@ -1,0 +1,18 @@
+.input {
+	width: 100%;
+	padding: 8px 20px;
+	border: 1px solid #1a1a1a;
+	border-radius: 999px;
+	background: transparent;
+	font-size: 14px;
+	color: #1a1a1a;
+	outline: none;
+}
+
+.input::placeholder {
+	color: #8f8a80;
+}
+
+.input:focus {
+	box-shadow: 0 0 0 3px rgba(26, 26, 26, 0.12);
+}

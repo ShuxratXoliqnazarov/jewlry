@@ -1,2 +1,7 @@
 export { default as Button } from './button/button'
 export { default as CategoryCard } from './category-card/category-card'
+export { default as Container } from './container/container'
+export { default as ImageLink } from './image-link/image-link'
+export { default as Input } from './input/input'
+export { default as LinkList } from './link-list/link-list'
+export { default as Slider } from './slider/slider'

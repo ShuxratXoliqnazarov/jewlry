@@ -1,0 +1,98 @@
+.footer {
+	border-top: 1px solid #e5e1d8;
+	background: #fff;
+	padding: 56px 0 64px;
+}
+
+.inner {
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	align-items: start;
+	gap: 48px;
+}
+
+.columns {
+	display: flex;
+	gap: 48px;
+}
+
+.columnsRight {
+	justify-content: flex-end;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 28px;
+	padding-top: 24px;
+	text-align: center;
+}
+
+.slogan {
+	font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 1.15;
+	color: #1a1a1a;
+}
+
+.form {
+	display: flex;
+	gap: 8px;
+	width: 340px;
+	max-width: 100%;
+}
+
+.form input {
+	min-width: 0;
+}
+
+.form button {
+	padding: 8px 24px;
+	white-space: nowrap;
+}
+
+.thanks {
+	font-size: 14px;
+	color: #6b6760;
+}
+
+/* Tablet: slogan on top, link columns below */
+@media (max-width: 1100px) {
+	.inner {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.center {
+		grid-column: 1 / -1;
+		order: -1;
+		padding-top: 0;
+	}
+
+	.columnsRight {
+		justify-content: flex-start;
+	}
+}
+
+/* Mobile: everything in one column */
+@media (max-width: 640px) {
+	.footer {
+		padding: 40px 0 48px;
+	}
+
+	.inner {
+		grid-template-columns: 1fr;
+		gap: 36px;
+	}
+
+	.columns {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 32px 24px;
+	}
+
+	.slogan {
+		font-size: 32px;
+	}
+}
