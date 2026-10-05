@@ -2,8 +2,7 @@ import bandsImage from '../../assets/bands.png'
 import clusterRingsImage from '../../assets/cluster-rings.png'
 import customDesignImage from '../../assets/custom-design.png'
 import ringsImage from '../../assets/rings.png'
-import { CategoryCard, Container } from '../../shared/ui'
-import SectionHeading from './section-heading'
+import { CategoryCard, Container, SectionHeading } from '../../shared/ui'
 
 const CARDS = [
 	{ title: 'Cluster Rings', image: clusterRingsImage, href: '#cluster-rings' },
