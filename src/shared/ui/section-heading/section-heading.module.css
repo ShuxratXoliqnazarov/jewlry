@@ -1,0 +1,22 @@
+.heading {
+	text-align: center;
+	color: #000;
+}
+
+.eyebrow {
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 0.02em;
+}
+
+.title {
+	font-size: 32px;
+	line-height: 48px;
+}
+
+@media (min-width: 768px) {
+	.title {
+		font-size: 43px;
+		line-height: 60px;
+	}
+}
