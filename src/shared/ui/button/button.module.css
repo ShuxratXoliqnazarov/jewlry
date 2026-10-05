@@ -6,6 +6,16 @@
 	text-decoration: none;
 	cursor: pointer;
 	border: 1px solid transparent;
+	transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease,
+		transform 0.25s ease;
+}
+
+.button:hover {
+	transform: translateY(-2px);
+}
+
+.button:active {
+	transform: translateY(0);
 }
 
 .light {
@@ -13,13 +23,28 @@
 	color: #1a1a1a;
 }
 
+.light:hover {
+	background: #1a1a1a;
+	color: #f7f5f0;
+}
+
 .blue {
 	background: #cfe1e7;
 	color: #000;
+}
+
+.blue:hover {
+	background: #000;
+	color: #cfe1e7;
 }
 
 .outline {
 	background: transparent;
 	color: #1a1a1a;
 	border-color: #1a1a1a;
+}
+
+.outline:hover {
+	background: #1a1a1a;
+	color: #f7f5f0;
 }
