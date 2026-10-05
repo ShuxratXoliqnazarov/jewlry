@@ -1,0 +1,25 @@
+.gallery {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.card {
+  width: 90%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.text {
+  margin: 20px 0 0;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #1a1a1a;
+}
